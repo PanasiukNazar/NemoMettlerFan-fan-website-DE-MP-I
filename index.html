@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <!--- basic page needs
+    ================================================== -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>NemoMettlerFan</title>
+
+        <script>
+            document.documentElement.classList.remove('no-js');
+            document.documentElement.classList.add('js');
+        </script>
+
+        <!-- CSS
+    ================================================== -->
+        <link rel="stylesheet" href="css/vendor.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- favicons
+    ================================================== -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="favicon-16x16.png"
+        />
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+
+    <body id="top">
+        <!-- preloader
+    ================================================== -->
+        <div id="preloader">
+            <div id="loader" class="dots-fade">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- page wrap
+    ================================================== -->
+        <div id="page" class="s-pagewrap ss-home">
+            <!-- # site header 
+        ================================================== -->
+            <header class="s-header">
+                <div
+                    style="justify-content: space-between"
+                    class="row s-header__inner width-sixteen-col"
+                >
+                    <div class="s-header__block">
+                        <div class="s-header__logo">
+                            <a
+                                style="font-size: 30px; font-weight: bold"
+                                class="logo"
+                                href="index.html"
+                            >
+                                NemoMettler
+                            </a>
+                        </div>
+
+                        <a class="s-header__menu-toggle" href="#0"
+                            ><span>Menu</span></a
+                        >
+                    </div>
+                    <!-- end s-header__block -->
+
+                    <nav class="s-header__nav">
+                        <ul class="s-header__menu-links">
+                            <li><a href="index.html">Startseite</a></li>
+                            <li><a href="about.html">Über</a></li>
+                            <li>
+                                <a href="work-with-me.html">Mit mir arbeiten</a>
+                            </li>
+                            <li><a href="contact.html">Kontakt</a></li>
+                        </ul>
+                        <!-- s-header__menu-links -->
+                    </nav>
+                    <!-- end s-header__nav -->
+                </div>
+                <!-- end s-header__inner -->
+            </header>
+            <!-- end s-header -->
+
+            <!-- # site main content
+        ================================================== -->
+            <section id="content" class="s-content">
+                <!-- intro
+            ----------------------------------------------- -->
+                <section id="intro" class="s-intro">
+                    <div class="row s-intro__content width-sixteen-col">
+                        <div
+                            class="column lg-12 s-intro__content-inner grid-block"
+                        >
+                            <div class="s-intro__content-text">
+                                <div
+                                    class="s-intro__content-pretitle text-pretitle"
+                                >
+                                    Hallo, ich bin Nemo Metller
+                                </div>
+                                <h1 class="s-intro__content-title">
+                                    Herzlich <br />
+                                    willkommen auf<br />
+                                    der umfassenden <br />
+                                    Nemo Mettler <br />Fanseite
+                                </h1>
+                            </div>
+                            <!-- s-intro__content-text -->
+
+                            <div class="s-intro__content-media">
+                                <div class="s-intro__content-media-inner">
+                                    <img
+                                        src="images/intro-bg.jpg"
+                                        srcset="
+                                            images/intro-bg.jpg    1x,
+                                            images/intro-bg@2x.jpg 2x
+                                        "
+                                        alt=""
+                                    />
+                                    <div class="lines">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- s-intro__content-media -->
+
+                            <div class="s-intro__scroll-down">
+                                <a href="#about" class="smoothscroll">
+                                    <div class="scroll-icon">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            width="36"
+                                            height="36"
+                                            fill="none"
+                                            stroke="#97b34a"
+                                            stroke-width="1"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            &lt;!--! Atomicons Free 1.00 by
+                                            @atisalab License -
+                                            https://atomicons.com/license/
+                                            (Icons: CC BY 4.0) Copyright 2021
+                                            Atomicons --&gt;
+                                            <polyline
+                                                points="7 13 12 18 17 13"
+                                            ></polyline>
+                                            <line
+                                                x1="12"
+                                                y1="18"
+                                                x2="12"
+                                                y2="6"
+                                            ></line>
+                                        </svg>
+                                    </div>
+                                    <span>Scrollen für mehr</span>
+                                </a>
+                            </div>
+                            <!-- s-intro__scroll-down -->
+                        </div>
+                        <!-- s-intro__content-inner -->
+                    </div>
+                    <!-- s-intro__content -->
+                </section>
+                <!-- end s-intro -->
+
+                <!-- about
+            ----------------------------------------------- -->
+                <section id="about" class="s-about target-section">
+                    <div class="row s-about__content width-sixteen-col">
+                        <div class="column grid-block grid-section-split">
+                            <img
+                                src="images/geometric_shape.svg"
+                                alt=""
+                                class="s-about__content-imgbg"
+                            />
+
+                            <div
+                                class="section-header grid-section-split__header"
+                            >
+                                <div class="text-pretitle">Über</div>
+                                <h2 class="text-display-title">
+                                    Willkommen auf der offiziellen Nemo Mettler
+                                    Fanseite!
+                                </h2>
+                            </div>
+                            <!-- end section-header -->
+
+                            <div
+                                class="s-about__content-main grid-section-split__primary"
+                            >
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Wer ist Nemo Mettler?</strong
+                                    >
+                                    Nemo Mettler ist eine Ikone in der Welt der
+                                    Unterhaltung. Geboren und aufgewachsen in
+                                    der malerischen Kulisse der Schweiz,
+                                    entdeckte er seine Leidenschaft für die
+                                    Schauspielerei und die Musik in jungen
+                                    Jahren und verfolgte seine Träume mit
+                                    unermüdlichem Einsatz und Hingabe. Seine
+                                    einzigartige Fähigkeit, sich in verschiedene
+                                    Rollen einzufühlen und sein Charisma auf der
+                                    Bühne und vor der Kamera haben ihn zu einem
+                                    der gefragtesten Künstler seiner Generation
+                                    gemacht.
+                                </p>
+
+                                <p class="attention-getter">
+                                    <strong style="color: white"
+                                        >Ein Blick auf seine Karriere</strong
+                                    >
+                                    Nemo Mettler begann seine Karriere mit
+                                    bemerkenswerten Auftritten in regionalen
+                                    Theaterproduktionen, wo er schnell
+                                    Aufmerksamkeit erregte und seinen Weg in die
+                                    Film- und Fernsehindustrie fand. Sein Talent
+                                    und seine Vielseitigkeit brachten ihm
+                                    zahlreiche Auszeichnungen und Anerkennungen
+                                    ein, während er sich kontinuierlich
+                                    weiterentwickelte und in verschiedenen
+                                    Genres, von Drama über Komödie bis hin zu
+                                    Action, glänzte.
+                                </p>
+
+                                <p class="attention-getter">
+                                    <strong style="color: white">
+                                        Nemo Mettlers Einfluss</strong
+                                    >
+                                    Abseits der Bühne engagiert sich Nemo
+                                    Mettler aktiv für soziale und umweltbezogene
+                                    Anliegen, wodurch er nicht nur als Künstler,
+                                    sondern auch als Vorbild für seine Fans
+                                    fungiert. Sein Einsatz für Nachhaltigkeit
+                                    und soziale Gerechtigkeit spiegelt sich in
+                                    seinem öffentlichen Wirken wider und
+                                    inspiriert seine Anhänger dazu, sich
+                                    ebenfalls für positive Veränderungen
+                                    einzusetzen.
+                                </p>
+                            </div>
+                            <!-- end s-about__content-main -->
+                        </div>
+                        <!-- content-inner -->
+                    </div>
+                </section>
+                <!-- end s-about -->
+
+                <!-- expertise
+            ----------------------------------------------- -->
+                <section id="expertise" class="s-expertise">
+                    <div class="row s-expertise__content width-sixteen-col">
+                        <div class="column xl-12 grid-block grid-section-split">
+                            <div
+                                class="section-header grid-section-split__header"
+                            >
+                                <div class="text-pretitle">Expertise</div>
+                                <h2 class="text-display-title">
+                                    Meine Hauptbereiche der Expertise
+                                </h2>
+
+                                <p class="lead">
+                                    Als Nemo Mettler Fanseite widmen wir uns der
+                                    umfassenden Darstellung der Hauptbereiche,
+                                    in denen Nemo Mettler glänzt. Hier erfahren
+                                    Sie mehr über seine herausragenden
+                                    Fähigkeiten und Leistungen in verschiedenen
+                                    Bereichen der Unterhaltungsindustrie.
+                                </p>
+                            </div>
+                            <!-- end section-header -->
+
+                            <div
+                                class="s-expertise__content-main grid-section-split__primary"
+                            >
+                                <div
+                                    class="grid-list-items list-items show-ctr"
+                                >
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Meister der Schauspielkunst
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Entdecken Sie Nemo Mettlers
+                                                außergewöhnliches Talent und
+                                                seine Fähigkeit, verschiedene
+                                                Rollen mit Leichtigkeit und
+                                                Tiefe zum Leben zu erwecken. Von
+                                                bewegenden Dramen bis hin zu
+                                                mitreißenden Komödien - erleben
+                                                Sie seine Vielseitigkeit und
+                                                sein Engagement für jede Rolle.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- list-item -->
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Virtuoser Musiker und Performer
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Tauchen Sie ein in die
+                                                musikalische Welt von Nemo
+                                                Mettler, einem virtuosen
+                                                Musiker, der durch seine
+                                                mitreißenden Performances und
+                                                vielseitigen Gesangstalenten
+                                                beeindruckt. Erfahren Sie mehr
+                                                über seine musikalischen
+                                                Projekte und seinen Beitrag zur
+                                                Musikszene.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- list-expertise__item -->
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Meister der Filmregie und
+                                                Produktion
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Entdecken Sie Nemo Mettlers
+                                                Beitrag zur Filmwelt als
+                                                Regisseur und Produzent.
+                                                Erfahren Sie, wie er durch seine
+                                                visionären Projekte und seine
+                                                Leidenschaft für
+                                                Geschichtenerzählen das Publikum
+                                                weltweit fasziniert und
+                                                inspiriert.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- list-expertise__item -->
+                                    <div
+                                        class="grid-list-items__item list-items__item"
+                                    >
+                                        <div
+                                            class="grid-list-items__title list-items__item-header"
+                                        >
+                                            <h3 class="list-items__item-title">
+                                                Engagement für soziale Anliegen
+                                            </h3>
+                                        </div>
+                                        <div
+                                            class="grid-list-items__text list-items__item-text"
+                                        >
+                                            <p>
+                                                Erfahren Sie mehr über Nemo
+                                                Mettlers Einsatz für soziale
+                                                Gerechtigkeit, Nachhaltigkeit
+                                                und humanitäre Hilfe. Entdecken
+                                                Sie seine Arbeit abseits der
+                                                Bühne und des Bildschirms, die
+                                                eine positive Veränderung in der
+                                                Gesellschaft und Umwelt bewirkt.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- list-expertise__item -->
+                                </div>
+                                <!-- grid-list-items -->
+                            </div>
+                            <!-- end s-expertise__content-main -->
+
+                            <!-- end s-about__content-btn -->
+                        </div>
+                        <!-- end grid-block-->
+                    </div>
+                    <!-- end s-expertise__content -->
+                </section>
+                <!-- end s-expertise -->
+            </section>
+            <!-- s-content-->
+
+            <!-- # journal
+        ================================================== -->
+            <section id="journal" class="s-journal">
+                <div class="row s-journal__content width-sixteen-col">
+                    <div class="column xl-12 grid-block">
+                        <div class="grid-full section-header text-center">
+                            <div class="text-pretitle">Neueste Artikel</div>
+                            <h2 class="text-display-title">
+                                Neueste Nachrichten über Nemo Mettler
+                            </h2>
+                        </div>
+                        <!-- end section-header -->
+
+                        <div
+                            class="grid-full s-journal__content-main grid-list-items"
+                        >
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <div class="blog-card__cat-links">
+                                        <a
+                                            >Rückkehr nach einer zweijährigen
+                                            Pause</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Nemo Mettler feiert triumphales
+                                            Comeback auf der Theaterbühne</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Nemo Mettler ist mit einem
+                                        beeindruckenden Comeback auf die
+                                        Theaterbühne zurückgekehrt, nachdem er
+                                        zwei Jahre lang an neuen Projekten
+                                        gearbeitet hat. Seine Performance als
+                                        Hauptrolle in "Die andere Seite des
+                                        Mondes" erntete Standing Ovations und
+                                        lobende Kritiken von Kritikern und
+                                        Publikum gleichermaßen. Mettler
+                                        faszinierte das Publikum mit seiner
+                                        emotionalen Tiefe und seiner
+                                        unverkennbaren Präsenz auf der Bühne.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <div class="blog-card__cat-links">
+                                        <a href="blog.html"
+                                            >Anerkennung für herausragende
+                                            schauspielerische Leistung</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Nemo Mettler erhält Auszeichnung
+                                            als bester Darsteller</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Nemo Mettler wurde kürzlich mit dem
+                                        renommierten Preis als bester Darsteller
+                                        für seine Rolle in "Licht und Schatten"
+                                        ausgezeichnet. Die Auszeichnung würdigt
+                                        seine herausragende schauspielerische
+                                        Leistung und sein Engagement für die
+                                        Kunst des Theaters. Mettler zeigte
+                                        erneut sein Talent und seine
+                                        Vielseitigkeit auf der Bühne, was ihn zu
+                                        einem der gefragtesten Schauspieler
+                                        seiner Generation macht.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <div class="blog-card__cat-links">
+                                        <a href="blog.html"
+                                            >Nemo Mettler hat seine neueste
+                                            Single "Lebensfreude"
+                                            veröffentlicht, die sofort
+                                        </a>
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a href="single.html"
+                                            >Nemo Mettler veröffentlicht neue
+                                            Single "Lebensfreude"</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Nemo Mettler hat seine neueste Single
+                                        "Lebensfreude" veröffentlicht, die
+                                        sofort die Charts erobert hat. Mit
+                                        eingängigen Melodien und tiefgründigen
+                                        Texten spricht der Song Themen wie
+                                        Freude, Hoffnung und persönliches
+                                        Wachstum an. Fans und Kritiker loben
+                                        Mettlers künstlerisches Gespür und seine
+                                        Fähigkeit, Emotionen durch seine Musik
+                                        zu vermitteln.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog card -->
+                            <div class="grid-list-items__item blog-card">
+                                <div class="blog-card__header">
+                                    <div class="blog-card__cat-links">
+                                        <a href="blog.html"
+                                            >Engagement für die nächste
+                                            Generation</a
+                                        >
+                                    </div>
+                                    <h3 class="blog-card__title">
+                                        <a
+                                            >Nemo Mettler unterstützt
+                                            Bildungsinitiative für junge
+                                            Künstler</a
+                                        >
+                                    </h3>
+                                </div>
+                                <div class="blog-card__text">
+                                    <p>
+                                        Nemo Mettler setzt sich aktiv für die
+                                        Förderung junger Talente ein und hat
+                                        kürzlich eine großzügige Spende an eine
+                                        Bildungsinitiative für angehende
+                                        Künstler geleistet. Sein Engagement für
+                                        die Ausbildung und Unterstützung der
+                                        nächsten Generation von Künstlern zeigt
+                                        seine Leidenschaft und Hingabe, sein
+                                        Wissen und seine Erfahrungen
+                                        weiterzugeben.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- end blog-card -->
+                        </div>
+                        <!-- end grid-list-items -->
+                    </div>
+                    <!-- end grid-block-->
+                </div>
+                <!-- end s-journal__content -->
+            </section>
+            <!-- end s-journal -->
+
+            <!-- # footer 
+        ================================================== -->
+            <footer class="s-footer">
+                <div class="row s-footer__content">
+                    <div
+                        class="column xl-6 lg-6 md-12 s-footer__block s-footer__about"
+                    >
+                        <h3>NemoMettlerFan</h3>
+                        <p>
+                            Willkommen im offiziellen Fanclub von Nemo Mettler!
+                            Bleiben Sie verbunden und erhalten Sie die neuesten
+                            Updates direkt in Ihrem Posteingang. Treten Sie
+                            unserer Community bei und entdecken Sie exklusive
+                            Inhalte, Veranstaltungen und mehr rund um Nemo
+                            Mettler. Folgen Sie uns auf unseren
+                            Social-Media-Plattformen, um keine Neuigkeiten zu
+                            verpassen und bleiben Sie über alle kommenden
+                            Projekte informiert.
+                        </p>
+                    </div>
+                    <div
+                        class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links"
+                    >
+                        <h3>Website-Links</h3>
+                        <ul class="link-list">
+                            <li><a href="index.html">Startseite</a></li>
+                            <li><a href="about.html">Über</a></li>
+                            <li>
+                                <a href="terms-of-use.html">Bedingungen</a>
+                            </li>
+                            <li>
+                                <a href="privacy-policy.html">Datenschutz</a>
+                            </li>
+                            <li>
+                                <a href="bussines-model.html"
+                                    >Bussines-Modell</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter"
+                    >
+                        <h3>Newsletter</h3>
+
+                        <div class="subscribe-form">
+                            <form id="mc-form" class="mc-form">
+                                <input
+                                    style="margin-bottom: 0px !important"
+                                    type="email"
+                                    name="EMAIL"
+                                    id="email"
+                                    class="u-fullwidth text-center"
+                                    placeholder="Ihre E-Mail Adresse"
+                                />
+                                <div
+                                    id="result"
+                                    style="color: red; font-size: 12px"
+                                ></div>
+                                <input
+                                    style="margin-top: 16px !important"
+                                    type="submit"
+                                    name="subscribe"
+                                    value="Subscribe"
+                                    class="btn btn--primary btn--small u-fullwidth"
+                                    id="submit"
+                                    onclick="sendForm()"
+                                />
+                                <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                                <div class="mc-status"></div>
+                            </form>
+                        </div>
+                    </div>
+                    <p
+                        style="
+                            border-top: 1px solid rgba(255, 255, 255, 0.05);
+                            padding-top: 50px;
+                        "
+                    >
+                        Haftungsausschluss: Die Informationen auf dieser Website
+                        sind nicht dazu gedacht, Rechtsberatung zu bieten oder
+                        eine Anwalts-Mandanten-Beziehung zu begründen. Die
+                        bereitgestellten Informationen, Dokumente oder Formulare
+                        dienen nur allgemeinen Informationszwecken und sollten
+                        nicht als Rechtsberatung betrachtet werden. Gesetze
+                        ändern sich regelmäßig; daher können die Informationen
+                        auf dieser Website ungenau sein. Es ist von
+                        entscheidender Bedeutung, dass Sie rechtlichen Rat
+                        einholen, um Ihre Rechte und Pflichten gemäß dem
+                        geltenden Recht und basierend auf Ihren spezifischen
+                        Umständen zu ermitteln.
+                    </p>
+                </div>
+            </footer>
+            <!-- end s-footer -->
+        </div>
+        <!-- end page-wrap -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div class="sub-wrapper">
+                <div>
+                    <i class="bx bx-cookie"></i>
+                    <h2 style="text-align: center">Cookie-Zustimmung</h2>
+                </div>
+
+                <div class="data">
+                    <p id="cookie-text">
+                        Diese Website verwendet Cookies, um Ihnen ein besseres
+                        und besseres und relevanteres Surferlebnis auf der
+                        Website zu ermöglichen.
+                        <a href="#">Mehr erfahren...</a>
+                    </p>
+                </div>
+
+                <div class="buttons">
+                    <button class="cookie-button" id="acceptBtn">
+                        Akzeptieren
+                    </button>
+                    <button class="cookie-button" id="declineBtn">
+                        Rückgang
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Java Script
+    ================================================== -->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
